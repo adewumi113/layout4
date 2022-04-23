@@ -1,0 +1,167 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+  background: url(background1.png);
+  color: white;
+  height: 350px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+header > section{
+  text-align: center;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+#kqp{
+  color: black;
+  font-size: small;
+  margin-top: 7%;
+}
+#mmb{
+  float: left;
+  padding-left: 1%;
+}
+#wbb{
+  float: left;
+  margin-bottom: -3.5px;
+  margin-left: 43%;
+}
+header h1{
+  margin-bottom: 5%;
+  padding-top: 3%;
+}
+#mmc{
+  margin-top: -3%;
+}
+.bff{
+  float: left;
+  padding: 0 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+#ffk{
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+  background: white;
+  color: gray;
+  padding: 0.3% 0.7%;
+}
+section#ppk img{
+  margin-right: 4%;
+  margin-top: 3px;
+}
+main #pxx{
+  text-align: center;
+  margin-top: 3%;
+  height: 180px;
+}
+#zbb > section{
+  float: left;
+  width: 50%;
+  margin-top: 4%;
+  text-align: center;
+}
+#zbb{
+  height: 440px;
+  background: url(background2.png);
+  padding: 0 4%;
+}
+.lkk{
+  border: 1px solid grey;
+  padding: 1% 3%;
+  color: black;
+}
+#pxm{
+  text-align: center;
+  margin-top: 3%;
+  height: 240px;
+}
+#pxm .lkk{
+  padding: 0.7% 1.5%;
+}
+
+footer{
+  background: url(background3.png);
+  color: white;
+  height: 260px;
+}
+footer #ctt, footer #ccc{
+  float: left;
+  width: 48%;
+  margin-left: 2%;
+}
+#ctt{
+  margin-top: 1%;
+}
+#ccc{
+  padding-left: 31%;
+  height: 180px;
+}
+#ccc span{
+  margin-top: -2%;
+}
+#zxc p, #zxc img{
+  float: left;
+}
+#zxc{
+  margin-left: 2%;
+  margin-top: 0.5%;
+}
+#ctt .mxx{
+  padding: 0 4%;
+  margin-left: -4%;
+}
+.ppp{
+  color: rgb(94, 92, 92);
+}
+#mqn{
+  color: rgb(193, 187, 187);
+}
+#qqn{
+  color: white;
+}
+#kpc{
+  margin-left: 37%;
+}
+footer div{
+  height: 1px;
+  width: 96%;
+  background: white;
+  overflow: hidden;
+  margin-left: 2%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media (min-width: 400px) and (max-width: 750px) {
+  footer, #pxx, #pxm {display: none;}
+  header {height: 350px;}
+}
